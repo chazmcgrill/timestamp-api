@@ -1,7 +1,5 @@
-/****** Main Styling ******/
-
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 16px;
 	color: #222;
 	background-color: #FaFaFa;
@@ -22,16 +20,16 @@ h3 {
 	margin-top: 40px;
 }
 
-.user-stories {
+.instructions {
   position: relative;
   text-align: justify;
   max-width: 700px;
   margin: 15px auto;
 }
+
 code {
-  font-family: monospace;
   padding: 2px;
-  color: black;
+  color: #2574A9;
   background-color: #fff;
 }
 ol {
@@ -47,7 +45,10 @@ li {
 .user-stories li {
   margin-bottom: 1em;
 }
-
 a {
-	color: #2574A9;
+  color: #2574A9;
+  text-decoration: none;
+}
+.footer {
+  font-size: 0.7rem;
 }
