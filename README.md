@@ -1,4 +1,5 @@
 # API Project: Timestamp Microservice
+Converts date formats between unix timestamps and utc datestamps
 
 ### Instructions :
 
@@ -14,4 +15,4 @@
 * ./api/timestamp/1450137600000
 
 #### Example output:
-* { "unix": 1450137600, "natural": "December 15, 2015" }
+* {"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}
